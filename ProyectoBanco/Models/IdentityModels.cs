@@ -17,5 +17,9 @@ namespace ProyectoBanco.Models
         }
 
         public System.Data.Entity.DbSet<ProyectoBanco.Models.Persona> Personas { get; set; }
+
+        public System.Data.Entity.DbSet<ProyectoBanco.Models.Cuenta> Cuentas { get; set; }
+
+        public System.Data.Entity.DbSet<ProyectoBanco.Models.TipoCuenta> TipoCuentas { get; set; }
     }
 }

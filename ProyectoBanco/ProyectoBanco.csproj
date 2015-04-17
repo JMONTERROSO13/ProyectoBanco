@@ -159,10 +159,16 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CuentasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PersonasController.cs" />
+    <Compile Include="Controllers\TipoCuentasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201504162015066_Initial.cs" />
+    <Compile Include="Migrations\201504162015066_Initial.Designer.cs">
+      <DependentUpon>201504162015066_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -231,6 +237,16 @@
     <Content Include="Views\Personas\Details.cshtml" />
     <Content Include="Views\Personas\Edit.cshtml" />
     <Content Include="Views\Personas\Index.cshtml" />
+    <Content Include="Views\TipoCuentas\Create.cshtml" />
+    <Content Include="Views\TipoCuentas\Delete.cshtml" />
+    <Content Include="Views\TipoCuentas\Details.cshtml" />
+    <Content Include="Views\TipoCuentas\Edit.cshtml" />
+    <Content Include="Views\TipoCuentas\Index.cshtml" />
+    <Content Include="Views\Cuentas\Create.cshtml" />
+    <Content Include="Views\Cuentas\Delete.cshtml" />
+    <Content Include="Views\Cuentas\Details.cshtml" />
+    <Content Include="Views\Cuentas\Edit.cshtml" />
+    <Content Include="Views\Cuentas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -241,6 +257,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201504162015066_Initial.resx">
+      <DependentUpon>201504162015066_Initial.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

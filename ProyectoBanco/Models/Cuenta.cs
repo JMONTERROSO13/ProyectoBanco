@@ -11,18 +11,16 @@ namespace ProyectoBanco.Models
         [Required]
         [Key]
         public int Id { get; set; }
-
-
+        
         [StringLength(10, MinimumLength = 7)]
-        public string Cuenta { get; set; }
+        public string nombreCuenta { get; set; }
 
-        public int IdTipo { get; set; }
+        public int TipoID { get; set; } 
         public TipoCuenta TipoCuenta { get; set; }
-
-
+        
         public int saldo { get; set; }
         
-        public int IdPersona{ get; set; }
+        public int PersonaId{ get; set; }
         public Persona Persona { get; set; }
     }
 }

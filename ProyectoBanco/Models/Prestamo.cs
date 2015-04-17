@@ -7,5 +7,6 @@ namespace ProyectoBanco.Models
 {
     public class Prestamo
     {
+        
     }
 }

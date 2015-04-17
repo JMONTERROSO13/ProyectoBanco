@@ -69,6 +69,7 @@ C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\bin\es\Microsoft.Owin.S
 C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\bin\es\Microsoft.Owin.Security.Google.resources.dll
 C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\bin\es\Microsoft.Owin.Security.Twitter.resources.dll
 C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\bin\es\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
-C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\obj\Debug\ProyectoBanco.csprojResolveAssemblyReference.cache
 C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\obj\Debug\ProyectoBanco.dll
 C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\obj\Debug\ProyectoBanco.pdb
+C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\obj\Debug\ProyectoBanco.Migrations.Initial.resources
+C:\Users\JMONTERROSO\Desktop\ProyectoBanco\ProyectoBanco\obj\Debug\ProyectoBanco.csproj.GenerateResource.Cache

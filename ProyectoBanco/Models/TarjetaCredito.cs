@@ -7,5 +7,7 @@ namespace ProyectoBanco.Models
 {
     public class TarjetaCredito
     {
+
+
     }
 }
